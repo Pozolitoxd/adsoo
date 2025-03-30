@@ -1,0 +1,128 @@
+/*header*/
+header{
+    background-color: aqua;
+    width: 100%;
+    max-width: 500%;
+}
+/*imagen*/
+img{
+    height: 4em;
+    margin-left: 20px;
+}
+/*lista*/
+ul{
+    list-style: none;
+}
+li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+    height: 2em;
+    width: 4em;
+}
+a{
+    text-decoration: none;
+}
+/*barra de navegacion*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*button login*/
+#login{
+    background-color: aqua;
+    border: none;
+    margin: 20px;
+    height: 3em;
+    width: 7em;   
+}
+/*ventana modal*/
+.contenedor{
+    display: none;
+    background-color: rgba(144,148, 150, 0.8);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+/*contenido modal*/
+.contenedor .contenido{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px
+}
+/*div label and input login*/
+.contenido div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*distribucion label*/
+.contenido div label{
+    margin: 10px 10px;
+    display: flex;
+    justify-content:flex-start ;
+    width: 100%;
+    max-width: 270px;
+}
+.contenido div input{
+    background-color: rgb(242, 239, 239);
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+.contenido div img{
+    margin: 10px;
+}
+/*button's interactivos*/
+#btnCerrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px; 
+}
+/*medidas button's interactivos*/
+.btns{
+    border: none;
+    width: 20em;
+}
+#btnCerrar button{
+    background-color: rgb(155, 255, 255);
+    width: 8em;
+    margin: 5px 2.2em;
+    border: none;
+    box-shadow: 1px 1px;
+    border-radius: 5px; 
+}
+/*PSEUDO CLASES*/
+
+/*pseudo clase de login*/
+#login:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 600ms;
+    border-radius: 8px;
+    color: white;
+}
+/*pseudo clase lista*/
+li:hover{
+    background-color: black;
+    transition: 600ms;
+    border-radius: 8px;
+    margin: 20px;
+}
+a:hover{
+    color: white;
+}
+
+
